@@ -25,30 +25,50 @@
 // console.log(obj5)//{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
 
 
-const users=[
-    {
-       id:1,
-       email:"abc@gmail.com"
-    },
-    {
-       id:2,
-       email:"def@gmail.com"
-    },
-    {
-       id:3,
-       email:"xyz@gmail.com"
-    }
+// const users=[
+//     {
+//        id:1,
+//        email:"abc@gmail.com"
+//     },
+//     {
+//        id:2,
+//        email:"def@gmail.com"
+//     },
+//     {
+//        id:3,
+//        email:"xyz@gmail.com"
+//     }
     
-]
-console.log(users[1].id)
-const obj={
-    1:11,
-    2:20,
-    3:34
+// ]
+// console.log(users[1].id)
+// const obj={
+//     1:11,
+//     2:20,
+//     3:34
+// }
+// console.log(Object.keys(obj))//[ '1', '2', '3' ] imp
+// console.log(Object.values(obj))//[ 11, 20, 34 ]
+// //entries convert all key value pair into array
+// console.log(Object.entries(obj))//[ [ '1', 11 ], [ '2', 20 ], [ '3', 34 ] ] 
+// console.log(obj.hasOwnProperty("2 "))// True key 2 is present
+// console.log(obj.hasOwnProperty("isloggedin"))// isloggedin is not a key in obj
+/*
+// destructuring
+const course={
+   coursename:"js",
+   price:1999,
+   courseInstructor:"Hitesh"
 }
-console.log(Object.keys(obj))//[ '1', '2', '3' ] imp
-console.log(Object.values(obj))//[ 11, 20, 34 ]
-//entries convert all key value pair into array
-console.log(Object.entries(obj))//[ [ '1', 11 ], [ '2', 20 ], [ '3', 34 ] ] 
-console.log(obj.hasOwnProperty("2"))// True key 2 is present
-console.log(obj.hasOwnProperty("isloggedin"))// isloggedin is not a key in obj
+//console.log(course.courseInstructor)//Hitesh
+const {courseInstructor:Inst}=course/ Destructuring 
+//console.log(courseInstructor)//Hitesh
+console.log(Inst)// Hites
+*/
+
+// Api
+
+[
+   {},
+   {},
+   {}
+]
