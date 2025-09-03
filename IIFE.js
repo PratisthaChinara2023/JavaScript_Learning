@@ -15,6 +15,7 @@ In short: IIFE is used to execute code immediately while keeping variables and l
 
  })();
 //UnNamed IIFE with oassing parameters
+//
 ((name)=>{
     console.log(`db connected two ${name}`)
 })('Hiets')
