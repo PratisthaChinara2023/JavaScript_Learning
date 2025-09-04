@@ -54,6 +54,13 @@
 
 // for each loop
 const lang=['javascript','java','ruby','C++']
-lang.forEach(function(val){
-    console.log(val)
+// lang.forEach(function(val){
+//     console.log(val)
+// })
+lang.forEach((val,index,arr)=>{
+    console.log(val,index,arr)
 })
+/*  op javascript 0 [ 'javascript', 'java', 'ruby', 'C++' ]
+java 1 [ 'javascript', 'java', 'ruby', 'C++' ]
+ruby 2 [ 'javascript', 'java', 'ruby', 'C++' ]
+C++ 3 [ 'javascript', 'java', 'ruby', 'C++' ] */
