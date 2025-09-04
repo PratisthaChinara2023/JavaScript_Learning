@@ -53,14 +53,36 @@
 // }
 
 // for each loop
-const lang=['javascript','java','ruby','C++']
-// lang.forEach(function(val){
-//     console.log(val)
+// const lang=['javascript','java','ruby','C++']
+// // lang.forEach(function(val){
+// //     console.log(val)
+// // })
+// lang.forEach((val,index,arr)=>{
+//     console.log(val,index,arr)
 // })
-lang.forEach((val,index,arr)=>{
-    console.log(val,index,arr)
-})
 /*  op javascript 0 [ 'javascript', 'java', 'ruby', 'C++' ]
 java 1 [ 'javascript', 'java', 'ruby', 'C++' ]
 ruby 2 [ 'javascript', 'java', 'ruby', 'C++' ]
 C++ 3 [ 'javascript', 'java', 'ruby', 'C++' ] */
+
+
+
+// Objects inside array
+  const code=[
+    {
+        languageName:"python",
+        fileName:"py"
+    },
+    {
+        languageName:"Java",
+        fileName:"java"
+    },
+    {
+        languageName:"Javascript",
+        fileName:"js"
+    }
+  ]
+
+code.forEach((item)=>{
+        console.log(item.languageName)
+})
