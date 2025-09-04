@@ -1,0 +1,59 @@
+// for of loop
+
+
+// const arr=[1,2,3,4,5]
+//  for(const num of arr)
+//  {
+//     console.log(num)
+//  }
+//   const greeting="Hello World"
+//   for(const greet of greeting)
+//   {
+//     console.log(`each char is ${greet}`)
+//   }
+
+
+  //Map
+//   const map=new Map()
+//   map.set('IND','India')
+//   map.set('USA','United states of America')
+//   map.set('FR',"France")
+// //  console.log(map)
+
+// for(const [key,value] of map)// [] for getting keys
+//   {
+//     console.log(key," ", value)
+//   }
+
+
+//   const obj={
+//     'game1':'NSF',
+//     'game2':'sipderman'
+//   }
+// for(const [key,value] of obj)// obj is not i
+//   {
+//     console.log(key," ", value)
+//   }
+
+
+// for in loop for object
+// const ob={
+//     js:'javascript',
+//     cpp:'c++',
+//     rb:'ruby',
+//     swift:'swift'
+// }
+// for(const key in ob){
+//     console.log(key)//js cpp rb swift
+// }
+// //for in loop in array
+// const array=[1,2,3,4,5,6,6]
+// for(const key in array){
+//     console.log(array[key])
+// }
+
+// for each loop
+const lang=['javascript','java','ruby','C++']
+lang.forEach(function(val){
+    console.log(val)
+})
