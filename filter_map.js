@@ -2,7 +2,7 @@
 // const value=coding.forEach((item)=>{
 //     console.log(item)
 // })
-
+//Filter
 const mynum=[1,2,3,4,5,6,7,8,9]
 const newnum=mynum.filter((num)=>num>4)
 console.log(newnum)//[ 5, 6, 7, 8, 9 ]
@@ -26,3 +26,5 @@ mynum.forEach((num)=>{
                     .map((num)=>num+1)
                     .filter((num)=>num>=40)
 console.log(newNum)
+
+// Reduce
