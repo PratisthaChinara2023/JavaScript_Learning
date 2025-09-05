@@ -28,3 +28,35 @@ mynum.forEach((num)=>{
 console.log(newNum)
 
 // Reduce
+
+const nums=[1,2,3]
+
+// const total=nums.reduce(function(acc,currval){
+//    console.log(`acc is ${acc} and currvalue is ${currval}`)
+//     return acc+currval
+// },0)
+// console.log(total)
+
+const total=nums.reduce((acc,curr)=>acc+curr,0)
+console.log(total)
+
+const shoppingCart=[
+    {
+        itemName:"js",
+        price:1000
+    },
+    {
+        itemName:"Java",
+        price:1000
+    },
+    {
+        itemName:"webdev",
+        price:1000
+    },
+    {
+        itemName:"Data SCience",
+        price:2000
+    }
+]
+const val=shoppingCart.reduce((acc,curr)=>acc+curr.price,0)
+console.log(val)
