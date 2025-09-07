@@ -11,6 +11,7 @@ let str1=str
  }
   //The userone is created in the heap and its reference is made in the stack area
   //usertwo takes reference from userone 
+  //
 let usertwo=userone
 usertwo.email="pratisthachinara"
 console.log(usertwo.email)
