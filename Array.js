@@ -19,3 +19,4 @@ const splicearr=originalarr.splice(2,3) // from index 2 remove 3 elements
 
 console.log("B" ,splicearr)// [3,4,5]
 console.log(originalarr)//[1,2,6]
+console.log("")
