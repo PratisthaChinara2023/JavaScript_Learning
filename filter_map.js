@@ -21,6 +21,7 @@ mynum.forEach((num)=>{
  console.log(sum)
 
  // chaining
+ //
  const newNum=mynumber
                     .map((num)=>num*10)
                     .map((num)=>num+1)
