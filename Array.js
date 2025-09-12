@@ -6,6 +6,7 @@
 // console.log(arr)// type is array
 // const arr1=arr.join()
 // console.log(arr1)
+
 // console.log(typeof arr1)// typoes has changed to string 
 
 
