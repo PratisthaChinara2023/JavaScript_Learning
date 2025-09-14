@@ -1,7 +1,5 @@
 //Singleton
 // Object Literials
-
-
 //const mySymbol=Symbol("Key1")
  const obj={
     name:"Pratistha", 
