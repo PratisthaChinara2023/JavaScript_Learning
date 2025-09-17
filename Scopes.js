@@ -8,5 +8,7 @@ if(true)
 }
 //console.log(a)//error
 //console.log(b)//error
+
+
 console.log(c)// 30
 console.log(d)//40
